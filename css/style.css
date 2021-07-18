@@ -178,6 +178,26 @@ img {
 	text-align: center;
 }
 
+.table {
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.table thead th {
+	text-transform: uppercase;
+	padding: 0.8rem;
+}
+
+.table tbody tr td {
+	color: #999;
+	padding: 0.8rem 1.2rem;
+	text-align: center;
+}
+
+.table tbody tr td:first-child {
+	text-align: left;
+}
+
 /*Container*/
 
 .container {
@@ -196,6 +216,11 @@ img {
 
 .text-lg {
 	font-size: 1.8rem;
+	margin-bottom: 1rem;
+}
+
+.text-md {
+	font-size: 1.5rem;
 	margin-bottom: 1rem;
 }
 
