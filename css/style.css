@@ -139,6 +139,14 @@ img {
 	cursor: pointer;
 }
 
+/*Tab content*/
+
+.tab-content {
+	padding: 3rem 0;
+	background: black;
+	color: white;
+}
+
 .tab-border {
 	border-bottom: var(--primary-color) 4px solid;
 }
@@ -166,13 +174,11 @@ img {
 .text-xl {
 	font-size: 2rem;
 	margin-bottom: 1rem;
-	color: white;
 }
 
 .text-lg {
 	font-size: 1.8rem;
 	margin-bottom: 1rem;
-	color: white;
 }
 
 .text-center {
@@ -212,4 +218,9 @@ img {
 	font-size: 2rem;
 	padding: 0.8rem 1.3rem;
 	text-transform: uppercase;
+}
+
+.btn-lg {
+	padding: 1rem;
+	width: 60%;
 }
